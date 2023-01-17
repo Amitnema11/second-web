@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, 
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.left h1{
+    font-size: 1.5vmax;
+    text-align: center;
+    padding-top: 1vmax;
+}
+.left h2{
+    padding-top: 25vmax;
+    padding-left: 14vmax;
+}
+.left h4{
+    padding-left: 10vmax;
+    color: #000;
+    background-color: yellow;
+}
+
+.right ul{
+    display: flex;
+list-style: none;
+background-color: grey;
+}
+.right ul li{
+    padding-top: 1vmax;
+    padding-left: 8vmax;
+    padding-bottom: 1vmax;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.right ul li:hover{
+color: rgba(16, 16, 16, 0.614);
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    overflow: hidden;
+}
+
+.second{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left2{
+    width: 40%;
+    height: 100%;
+}
+
+.right2{
+    width: 60%;
+    height: 100%;
+    padding: 10vmax;
+    
+}
+
+.left2 img{
+width: 70%;
+height: 80%;
+padding: 5vmax 0 0 7vmax;
+}
+.right2 h1{
+    font-weight: 900;
+}
+
+.third{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.third ul{
+    list-style: none;
+    display: flex;
+}
+
+.third ul li{
+    padding:4vmax 0 0 7vmax ;
+    font-size:1.2vmax ;
+    font-weight: 600;
+    /* position: relative; */
+    cursor: pointer;
+color: grey;
+}
+.third ul li:hover{
+    color: black;
+}
+.third img{
+    width: 20%;
+    padding: 1vmax;
+}
+.third img:hover{
+    /* transform: translateY(-20px); */
+    transform: scale(1.2);
+}
+.prj{
+    padding: 3vmax 0 0 27vmax;
+}
+button{
+    padding: 1vmax 2vmax;
+    border: 1px solid grey;
+    font-size: 1vmax;
+    border-radius: 2vmax;
+    margin-top: 2vmax;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover{
+    background-color: rgb(163, 59, 59);
+}
+
